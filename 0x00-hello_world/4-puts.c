@@ -1,12 +1,14 @@
-#include <stdio.h>
+#include<stdio.h>
 
 /**
  *
- *  * Description: main - Print out a string to stdout.
+ *  * main - Entry point
  *
- *   * Return: 0 if successfull.
+ *   *
  *
- *    */
+ *    * Return: Always 0 (Success)
+ *
+ *     */
 
 int main(void)
 
