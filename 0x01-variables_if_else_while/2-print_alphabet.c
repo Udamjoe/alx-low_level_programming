@@ -1,35 +1,35 @@
 #include <stdio.h>
 
-#include <stdlib.h>
-
 /**
  *
- *  * Description: main - Print out a string to stdout.
+ * * main - print if the number is postive, zero, or negative
  *
- *   * Return: 0 if successfull.
+ * *
  *
- *    */
+ * * Description: using the main function
+ *
+ * * this program prints "Programming is positive, zero, or negative
+ *
+ * * Return: 0
+ *
+ * */
 
 int main(void)
 
 {
 
-		char low;
+	char ch;
 
+	for (ch = 'a' ; ch <= 'z' ; ch++)
 
+	{
 
-			for (low = 'a'; low <= 'z'; low++)
+			putchar(ch);
 
-					{
+	}
 
-								putchar(low);
+	putchar('\n');
 
-									}
-
-				printf("\n");
-
-
-
-					return (0);
+	return (0);
 
 }
